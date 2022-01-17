@@ -1,0 +1,40 @@
+# HOW TO USE
+
+#install python 3.x.x from https://www.python.org/downloads/ and make sure to add it to PATH
+
+
+# installing libraries
+1)open cmd and trought cd navigate to folder.
+2) type in cmd: pip install -r requirements.txt
+
+# installing selenium.
+# to make this work you need a webdriver. wich essentially is a method for selenium to communicate with the browser. to do so:
+1) go to settings on your browser
+2) about chrome and ctrl c the version
+
+# if ur using chrome https://chromedriver.chromium.org/downloads
+# if ur using firefox see https://github.com/mozilla/geckodriver/releases/
+
+3) extract webdriver.exe from the folder and put it in the repository folder
+
+
+# installing ffmpeg
+
+1) Go to https://github.com/BtbN/FFmpeg-Builds/releases
+2) install the version that suits you
+3) open the folder and navigate to ffmpeg ecc.. -> bin -> ffmpeg.exe and drag it into the repo
+
+# setting up the .py file.
+
+1)now you'll need to enter your api hash and id to the script, to do so
+  go to https://my.telegram.org/auth, and login with your number. create a new bot and get api 
+  hash and id.
+
+2) now open toimport.py with an editor (could be notepad too) 
+
+3) search for (line 40) api id = and input your api id. same thing for api hash
+
+
+
+# now you are ready to go! just type in cmd 
+python main.py and the script will start by itself!(the first time you do this it will ask to access)
